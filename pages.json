@@ -1,0 +1,123 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "盲盒欢乐购"
+			}
+		},
+		{
+
+			"path": "pages/blindbox/blindbox",
+
+			"style": {
+
+				"app-plus": {
+
+					"titleNView": false
+
+				},
+
+				"navigationBarTitleText": "盲盒欢乐购"
+
+			}
+
+		},
+		{
+
+			"path": "pages/blindbox-show/blindbox-show",
+
+			"style": {
+
+				"app-plus": {
+
+					"titleNView": false
+
+				},
+
+				"navigationBarTitleText": "盲盒欢乐购"
+
+			}
+
+		}
+	    ,{
+            "path" : "pages/prize/prize",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "盲盒欢乐购",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/payment/payment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "盲盒欢乐购",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/record/record-list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "盲盒欢乐购",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/record/record-status",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "盲盒欢乐购",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/address/edit-address",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "盲盒欢乐购",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/scan-qrcode/scan-qrcode",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "盲盒欢乐购",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/blank/blank",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "盲盒欢乐购",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/blank/blank",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "盲盒欢乐购",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "盲盒欢乐购",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	}
+}

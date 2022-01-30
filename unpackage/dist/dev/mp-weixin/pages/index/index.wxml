@@ -1,0 +1,1 @@
+<view class="wrapper"><view class="login-wrap"><view data-event-opts="{{[['tap',[['login']]]]}}" class="btn-login" bindtap="__e">微信登录</view><view class="tips">登录注册即表示同意<navigator class="link" url>用户协议</navigator>与<navigator class="link" url>隐私条款</navigator></view></view></view>

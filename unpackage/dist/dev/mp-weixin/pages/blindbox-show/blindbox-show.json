@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "盲抽平台",
+  "usingComponents": {
+    "notice-bar": "/components/xyh-notice-bar/xyh-notice-bar"
+  }
+}

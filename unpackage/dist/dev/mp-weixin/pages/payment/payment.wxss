@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  background: #ffffff;
+}
+.swiper-box {
+  height: calc(100% - 40px);
+}
+.list-scroll-content {
+  height: 100%;
+}
+.navbar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 40px;
+  background: #FFF0ED;
+  position: relative;
+  z-index: 10;
+}
+.navbar .nav-item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 100%;
+  font-size: 15px;
+  color: #666666;
+  position: relative;
+}
+.navbar .nav-item.current {
+  color: #000000;
+  background: #ffffff;
+}
+.address-form-wrap .address-form-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  line-height: 30rpx;
+  font-size: 28rpx;
+  padding: 40rpx 20rpx;
+  margin: 0 20rpx;
+  border-bottom: 1rpx solid #F1F1F1;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.address-form-wrap .address-form-item:nth-last-child(1) {
+  border: none;
+}
+.address-form-wrap .address-form-item .label {
+  display: inline-block;
+  width: 190rpx;
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #000000;
+}
+.address-form-wrap .address-form-item .form-item-wrap {
+  position: relative;
+}
+.address-form-wrap .address-form-item .form-item-wrap .address-input {
+  font-size: 28rpx;
+  font-weight: 400;
+  color: #888888;
+  display: inline-block;
+  vertical-align: middle;
+}
+.address-form-wrap .address-form-item .form-item-wrap .icon-location {
+  display: inline-block;
+  width: 17rpx;
+  height: 21rpx;
+  vertical-align: top;
+  margin-top: 6rpx;
+}
+.address-form-wrap .address-form-item .form-item-wrap .icon-arrows {
+  position: absolute;
+  right: 0;
+  top: 15rpx;
+  display: inline-block;
+  width: 13rpx;
+  height: 25rpx;
+}
+.address-form-wrap .address-form-item .btn-address-submit {
+  font-size: 30rpx;
+  font-family: Source Han Sans CN;
+  font-weight: 400;
+  color: #FFFFFF;
+  width: 350rpx;
+  height: 68rpx;
+  line-height: 68rpx;
+  background: #FD5C40;
+  border-radius: 34rpx;
+}
+.qrcode-wrap {
+  text-align: center;
+}
+.qrcode-wrap .qrcode-cover {
+  width: 363rpx;
+  height: 363rpx;
+  margin: 110rpx auto 0 auto;
+}
+.qrcode-wrap .qrcode {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.qrcode-wrap .text {
+  display: inline-block;
+  margin-top: 60rpx;
+  font-size: 30rpx;
+  font-weight: 400;
+  color: #000000;
+}
+

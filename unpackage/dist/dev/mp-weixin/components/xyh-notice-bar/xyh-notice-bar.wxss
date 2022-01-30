@@ -1,0 +1,14 @@
+
+.text.data-v-46c1dac4 {
+	width: 100%;
+}
+.notice.data-v-46c1dac4 {
+	padding: 20rpx 20rpx;
+	max-height: 80rpx;
+}
+.flex.data-v-46c1dac4 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+
